@@ -3,7 +3,7 @@
     <head>
         <meta name="description" content="HTML5 Audio Spectrum Visualizer">
         <title>Audio Spectrum Visualizer</title>
-        <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet" type="text/css">
         <link type="text/css" rel="stylesheet" href="style/style.css">
     </head>
     <body>
@@ -13,13 +13,13 @@
                     Audio Spectrum Visualizer
                 </div>
 
-                <label for="uploadedFile">Drag & drop or select a file to play:</label>
-                <input type="file" id="uploadedFile"></input>
+                <label for="uploadedFile" id="labelText">Drag & drop or select a file to play:</label>
+                <input type="file" id="uploadedFile">
             </div>
             <div id="visualizer_wrapper">
 
-                 <canvas id='mono-L' width="1200" height="350"></canvas>
-                <canvas id='mono-R' width="1200" height="350"></canvas>
+                 <canvas id="mono-L" width="1200" height="350"></canvas>
+                <canvas id="mono-R" width="1200" height="350"></canvas>
             </div>
 
         </div>
